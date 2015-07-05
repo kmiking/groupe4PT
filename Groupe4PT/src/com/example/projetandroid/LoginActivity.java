@@ -24,6 +24,8 @@ public class LoginActivity extends Activity {
 	EditText txtLog, txtPass;
     Button btnNewMam, btnConnect;
      
+    
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
