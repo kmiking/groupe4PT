@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjetAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="menuAide">Aide</string>
+    <string name="menuApropos">A Propos</string>
+    <string name="inscription">INSCRIPTION</string>
+    <string name="title_activity_aide">Aide</string>
+    <string name="title_activity_menu">MenuPrincipal</string>
+    <string name="title_activity_carnet_mama">CarnetMama</string>
+    <string name="title_activity_carnet_bebe">CarnetBebe</string>
+    <string name="title_activity_prochains_rv">ProchainsRV</string>
+
+</resources>

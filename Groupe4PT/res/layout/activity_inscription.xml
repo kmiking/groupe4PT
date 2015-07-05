@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".InscriptionActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Inscription"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtPrenomM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNomM"
+        android:layout_below="@+id/txtNomM"
+        android:ems="10"
+        android:hint="Saisir le Prenom" />
+
+    <EditText
+        android:id="@+id/txtAgeM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPrenomM"
+        android:layout_below="@+id/txtPrenomM"
+        android:ems="10"
+        android:hint="Saisir l&apos;age" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtDateGM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtGrpSM"
+        android:layout_below="@+id/txtGrpSM"
+        android:ems="10"
+        android:hint="Saisir la date du debut de grossesse" />
+
+    <EditText
+        android:id="@+id/txtNumM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtDateGM"
+        android:layout_below="@+id/txtDateGM"
+        android:ems="10"
+        android:hint="Saisir le numero" />
+
+    <EditText
+        android:id="@+id/txtNomM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Saisir le Nom" />
+
+    <EditText
+        android:id="@+id/txtPoidsM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtGrpSM"
+        android:layout_below="@+id/txtAgeM"
+        android:ems="10"
+        android:hint="Saisir le poids" />
+
+    <EditText
+        android:id="@+id/txtGrpSM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAgeM"
+        android:layout_below="@+id/txtPoidsM"
+        android:ems="10"
+        android:hint="Saisir le groupe sanguin" />
+
+    <Button
+        android:id="@+id/btnValiderM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNumM"
+        android:layout_alignRight="@+id/txtNumM"
+        android:layout_below="@+id/txtNumM"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="19dp"
+        android:text="Valider" />
+
+</RelativeLayout>
